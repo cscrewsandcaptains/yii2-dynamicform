@@ -24,6 +24,11 @@
             "homepage": "http://wbraganca.com"
         }
     ],
+    "require": {
+        "yiisoft/yii2": "~2.0.5",
+        "symfony/css-selector": "^4.4|^5.4|^6.0",
+        "symfony/dom-crawler": "^4.4|^5.4|^6.0"
+    },
     "autoload": {
         "psr-4": {
             "wbraganca\\dynamicform\\": "src"
